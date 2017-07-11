@@ -2,7 +2,9 @@
   "name": "real-workspace",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://matias-pierobon.github.io/real-workspace",
   "dependencies": {
+    "ansi-styles": "^3.1.0",
     "antd": "^2.12.0",
     "autoprefixer": "7.1.1",
     "babel-core": "6.25.0",
@@ -49,7 +51,8 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "flow": "flow"
+    "flow": "flow",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -90,5 +93,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0"
   }
 }
