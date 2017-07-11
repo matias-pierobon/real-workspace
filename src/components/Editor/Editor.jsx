@@ -49,6 +49,7 @@ class Editor extends React.Component {
             showLineNumbers={true}
             tabSize={4}
             width="100%"
+            height="40vh"
             commands={[{
                 name: 'myCommand',
                 bindKey: {win: 'Ctrl-Enter',  mac: 'Command-Enter'},
