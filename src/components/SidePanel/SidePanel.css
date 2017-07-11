@@ -1,0 +1,7 @@
+.side-panel .ant-card{
+    margin: 20px 10px;
+}
+
+.side-panel .ant-card .ant-card-body{
+    padding: 10px;
+}
