@@ -2,7 +2,7 @@
   "name": "real-workspace",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://matias-pierobon.github.io/real-workspace",
+  "homepage": "https://matias-pierobon.github.io/real-workspace/",
   "dependencies": {
     "ansi-styles": "^3.1.0",
     "antd": "^2.12.0",
